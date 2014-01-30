@@ -1,0 +1,224 @@
+@font-face
+{
+font-family: 'LubalinGraph Demi';
+src: url(../assets/fonts/LubalinGraphStd-Demi.otf);
+}
+
+@font-face
+{
+font-family: 'LubalinGraphITCbyBT Demi';
+src: url(../assets/fonts/LubalinGraphITCbyBT-Demi.otf);
+}
+
+html, body{
+	margin: 0 auto;
+	padding: 0;
+	width: 1280px;
+	background-color: rgb(0,0,0);
+	background-image: url('../assets/img/bg.jpg');
+}
+
+header, footer{
+	height: 60px;
+	width: 1280px;
+	background-color: rgb(53,51,42);
+}
+
+.logo{
+	margin: 12px 0 0 70px;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	display: inline;
+}
+
+.nav, .foot_nav{
+	list-style: none;
+	display: inline-block;
+	position: absolute;
+	margin: 25px 0 0 210px;
+	padding: 0;
+}
+
+.nav a, .foot_nav a{
+	font: bold 15px Arial;
+	margin: 0px 40px 10px 0;
+	padding: 0 5px 10px;
+	color: rgb(255,255,255);
+}
+
+a.active, .nav a:hover{
+	border-bottom: solid 8px rgb(247,168,0);
+}
+
+.areas_of_study{
+	padding: 0;
+}
+
+.areas_of_study li{
+	width: 187px;
+	height: 136px;
+	margin: 0 13px 13px 0;
+	padding: 0 60px 0 0;
+	background-color: rgb(126,124,109);
+	display: inline-block;
+	vertical-align: top;
+}
+
+.areas_of_study li img{
+	position: absolute;
+	margin: 0 0 0 110px;
+	display: none;
+}
+
+.areas_of_study li:nth-child(4), .areas_of_study li:nth-child(8){
+	margin: 0 0 13px 0;
+}
+
+.areas_of_study li a{
+	position: absolute;
+	display: block;
+	width: 157px;
+	height: 22px;
+	padding: 57px 60px 57px 30px;
+	font: bold 22px Arial;
+	color: rgb(255,255,255);
+}
+
+.areas_of_study li:hover img{
+	display: block;
+}
+
+.areas_of_study li:nth-child(1n+7) a{
+	height: 52px;
+	padding: 42px 60px 42px 30px;
+}
+
+.learn_more{
+	display: inline;
+	position: absolute;
+	margin: 12px 0 0 797px;
+	cursor: pointer;
+}
+
+#wrap{
+	width: 1280px;
+	/*background-image: url('../assets/img/bg.jpg');*/
+	background-color: rgba(0,0,0,0);
+	padding: 1px 0 80px;
+}
+
+.top{
+	height: 460px;
+}
+
+.main{
+	width: 1040px;
+	height: 590px;
+	background-color: rgb(255,255,255);
+	margin: 400px 70px;
+	padding: 40px 50px 50px;
+	position: absolute;
+}
+
+.main p{
+	font: 18px/27px Arial;
+	width: 550px;
+	margin: 10px 0 55px;
+	display: inline-block;
+}
+
+.main .honey_boo_boo_farts{
+	display: inline-block;
+	position: absolute;
+	margin: 0 0 0 50px;
+}
+
+.main h1{
+	font-family: 'LubalinGraph Demi';
+	font-size: 1.9em;
+	color: rgb(58,58,46);
+}
+
+.video{
+	width: 1030px;
+	height: 471px;
+	background-color: rgb(63,62,53);
+	margin: 544px 0 0;
+	padding: 170px 125px 0;
+}
+
+.video .left, .video .right{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+
+}
+
+.video h2{
+	font-family: 'LubalinGraphITCbyBT Demi';
+	margin: 0;
+	color: rgb(247,168,0);
+}
+
+.video p{
+	font: 16px/25px Arial;
+	width: 300px;
+	color: rgb(255,255,255);
+}
+
+.video .right{
+	position: absolute;
+	margin: 0 0 0 90px;
+}
+
+.video iframe{
+	border: 0;
+}
+
+.carousel{
+	width: 1029px;
+	height: 483px;
+	background-color: rgb(0,0,0);
+	margin: 80px auto 0;
+}
+
+.carousel .image{
+	width: 1029px;
+}
+
+.carousel .image, .arrows, .elipses{
+	position: absolute;
+	overflow: hidden;
+}
+
+.arrows img, .elipses img{
+	cursor: pointer;
+}
+
+.arrows, .elipses{
+	width: 1029px;
+	text-align: center;
+}
+
+.arrows{
+	margin: 230px 0;
+}
+
+.right_arrow{
+	margin: 0 0 0 910px;
+}
+
+.elipses{
+	margin: 455px 0;
+}
+
+.elipses img{
+	margin: 0 5px;
+}
+
+footer .foot_nav{
+	margin: 20px 0 0 690px;
+}
